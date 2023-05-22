@@ -18,6 +18,7 @@ class ObservableAppState extends EventEmitter {
   quote = null
 
   showF = true
+  picture = null;
   // Used to load initial data
   init() {
 

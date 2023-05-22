@@ -10,7 +10,7 @@ function _drawTodo() {
     // FIXME look at spellbook prepared spells filter and only show the non completed
     let template = `
         <div>
-            Total: ${AppState.todos.length}
+            Total: ${AppState.todos.filter(t => t.completed).length}
         <div>
     `
     // let Total = 0;

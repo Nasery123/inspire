@@ -31,7 +31,7 @@ class TodoService {
     async toggleTodo(id) {
         const todo = AppState.todos.find(t => t.id == id)
         todo.completed = !todo.completed
-
+        AppState.emit('todos')
         const res = await api.put('api/todos/' + id, todo)
         console.log('toggle ', res.data)
     }

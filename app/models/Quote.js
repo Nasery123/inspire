@@ -3,7 +3,7 @@ export class Quote {
         // this.id = data.id || generatID()
         this.quote = data.quote
         this.description = data.description
-        
+
         // console.log('the debugger')
         this.content = data.content
         this.author = data.author
