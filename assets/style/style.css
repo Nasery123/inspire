@@ -44,10 +44,12 @@ body{
 }
 #author{
     position: absolute;
-    transform: translateX(-50);
+    transform: translateX(50);
     visibility: hidden;
     opacity: 0;
-    text-align: center;
+    text-align:end;
+    top: 50px;
+    left:69px;
 }
 #author::before{
     content: "";

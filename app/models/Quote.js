@@ -17,10 +17,14 @@ export class Quote {
         <div class="row">
         <div class="col-6 text-center ">
 
-
-        <div id="quoteDescription">
+        <div class="row">
+        <div class="d-flex" id="quoteDescription">
         <p>${this.content}</p>
-        <p id="author">${this.author}</p>
+
+        <div class="row">
+        <b>
+        <p class="text-end" id="author">${this.author}</p></b>
+
         </div>
 
 

@@ -7,10 +7,10 @@ import { setHTML } from "../utils/Writer.js"
 
 function _drawTodo() {
     console.log('drawing todos')
-    // FIXME look at spellbook prepared spells filter and only show the non completed
+
     let template = `
         <div>
-            Total: ${AppState.todos.filter(t => t.completed).length}
+            Total: ${AppState.todos.filter(t => t.completed != true).length}
         <div>
     `
     // let Total = 0;
